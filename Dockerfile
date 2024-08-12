@@ -8,4 +8,4 @@ RUN  npm install
 
 COPY . /app
 
-CMD ["npm","start"]
+CMD ["npm","start","0.0.0.0:3000"]
